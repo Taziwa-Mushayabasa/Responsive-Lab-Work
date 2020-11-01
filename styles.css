@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #dd99ff;
+  padding: 5px;
+  text-align: left;
+  font-size: 15px;
+  margin:0 auto;
+  font-family: 'Mansalva', cursive;
+}
+
+/* Sidebar*/
+nav {
+  float: left;
+  width: 10%;
+  height: 300px; 
+  background-color: #cc66ff;
+  padding: 10px;
+}
+
+/* List in menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/*main body under second heading*/ 
+article {
+  float: left;
+  padding: 30px;
+  width: 90%;
+  height: 300px; 
+  background-image:url("shoes7.png");
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
+
+section {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #7575a3;
+  padding:50px;
+  text-align: center;
+}
+
+/* Responsive page 600px */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
